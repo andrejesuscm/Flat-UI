@@ -6,8 +6,10 @@ pipeline {
     
   }
   stages {
-    stage('step1') {
-      sh 'test!!!!'
+    stage('checkout') {
+      steps {
+        echo 'CHECKOUT'
+      }
     }
   }
 }
