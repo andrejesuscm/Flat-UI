@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('step1') {
       steps {
-        echo 'test!!!!'
+        powershell(script: 'git status', returnStatus: true, returnStdout: true)
       }
     }
   }
