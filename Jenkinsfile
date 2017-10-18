@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        echo 'CHECKOUT'
+        sleep 20
       }
     }
   }
