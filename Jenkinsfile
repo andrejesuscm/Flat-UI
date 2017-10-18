@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-node('common') {
+pipeline {
   try {
     def TAG
     def REVISION
